@@ -1,7 +1,7 @@
 ' T=µ›ƒﬁ
 ' A=10…∏◊≤, B=1…∏◊≤
 
-1 'µ›ƒﬁπ≤
+1 'µ›ƒﬁπ≤IFTTT
 10 CLS:CLV:CLT
 
 ' Number 0..9
@@ -45,7 +45,7 @@
 150 W=I2CW(#70,#753,1,#800,16)
 
 ' IFTTT
-151 IF A>29 && T=0 T=1:?A;"ﬂC":?:?"MJ GET "
-152 IF A<28 T=O
+151 IF T>29 && C=0 C=1:?T;"ﬂCÅh:?:?ÅhMJ GETS https://maker.ifttt.com/trigger/IchigoJam/with/key/b3Y3kyN54RhVwLMe5rYbsJÅh
+152 IF T<28 C=O
 
 160 WAIT 60:GOTO 50
